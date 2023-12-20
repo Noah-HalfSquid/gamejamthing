@@ -9,7 +9,12 @@
 */
 
 global.grid = mp_grid_create(0, 0, room_width / 32, room_height / 32, 32, 32);
-global._global_path = path_add();
 
 mp_grid_add_instances(global.grid, obj_open_tile, false);
 mp_grid_add_instances(global.grid, obj_wall_tile, false);
+
+var _room1_pathfind = path_add();
+for (var _i = 0; _i <= 360; _i += 32) {
+	path_add_point(_room1_pathfind, x + lengthdir_x(50, _i), y + lengthdir_y(50, _i), 100);
+}
+draw_path(_room1_pathfind, x * 11.25, y * 11.25, false);

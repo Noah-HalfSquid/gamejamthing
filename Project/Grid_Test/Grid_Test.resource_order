@@ -26,6 +26,7 @@
     {"name":"Weapons","order":6,"path":"folders/Sprites/Weapons.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Path Collection Objects","order":8,"path":"folders/Objects/Path Collection Objects.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_wall_tile","order":2,"path":"objects/obj_wall_tile/obj_wall_tile.yy",},

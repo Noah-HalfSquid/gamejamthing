@@ -38,6 +38,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Weapons","folderPath":"folders/Sprites/Weapons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Path Collection Objects","folderPath":"folders/Objects/Path Collection Objects.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -59,6 +60,7 @@
     {"id":{"name":"obj_open_tile","path":"objects/obj_open_tile/obj_open_tile.yy",},},
     {"id":{"name":"test_tileset","path":"sprites/test_tileset/test_tileset.yy",},},
     {"id":{"name":"spr_marto_idle_top","path":"sprites/spr_marto_idle_top/spr_marto_idle_top.yy",},},
+    {"id":{"name":"room1_path","path":"objects/room1_path/room1_path.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"wall_tile","path":"sprites/wall_tile/wall_tile.yy",},},
     {"id":{"name":"obj_marto_E","path":"sprites/obj_marto_E/obj_marto_E.yy",},},
@@ -70,6 +72,7 @@
     {"id":{"name":"free_tile","path":"sprites/free_tile/free_tile.yy",},},
     {"id":{"name":"spr_marto_idle_left","path":"sprites/spr_marto_idle_left/spr_marto_idle_left.yy",},},
     {"id":{"name":"spr_protag_idle_top","path":"sprites/spr_protag_idle_top/spr_protag_idle_top.yy",},},
+    {"id":{"name":"pth_room_path","path":"paths/pth_room_path/pth_room_path.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
