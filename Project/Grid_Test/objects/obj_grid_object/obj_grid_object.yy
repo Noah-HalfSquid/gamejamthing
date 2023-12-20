@@ -1,18 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "player_obj",
+  "name": "obj_grid_object",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":39,"eventType":9,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":5,"eventType":7,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Entity Objects",
-    "path": "folders/Objects/Entity Objects.yy",
+    "name": "Grid Object",
+    "path": "folders/Objects/Grid Object.yy",
   },
   "parentObjectId": null,
-  "persistent": true,
+  "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
   "physicsFriction": 0.2,
@@ -27,10 +29,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "protag_idle_top",
-    "path": "sprites/protag_idle_top/protag_idle_top.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
